@@ -1,0 +1,55 @@
+Arguments: 
+  C:\Users\ayaan\.atri\webapp-builder-win.exe.v0.0.90 C:\snapshot\webapp-builder\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Users\ayaan\.virtualenvs\atri-oVqvXvFf\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\MinGW\bin;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\msys64\mingw64\bin;C:\msys64\usr\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\ayaan\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\ayaan\AppData\Local\Programs\Python\Python39\;C:\Users\ayaan\AppData\Local\Microsoft\WindowsApps;C:\Program Files\heroku\bin;C:\Users\ayaan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ayaan\AppData\Roaming\npm;C:\Users\ayaan\AppData\Local\GitHubDesktop\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, copyfile 'C:\Users\ayaan\AppData\Local\Yarn\Cache\v6\npm-typescript-4.6.3-eefeafa6afdd31d725584c67a0eaba80f6fc6c6c-integrity\node_modules\typescript\CopyrightNotice.txt' -> 'C:\Users\ayaan\OneDrive\Desktop\atri\atri_app\node_modules\@atrilabs\design-system\node_modules\typescript\CopyrightNotice.txt'
+
+npm manifest: 
+  {
+    "name": "atri-react-app-template",
+    "version": "0.0.0",
+    "private": "true",
+    "scripts": {
+      "buildApp": "atri-react-app-build-app",
+      "buildAppNode": "atri-react-app-build-server",
+      "buildServer": "cd server && tsc",
+      "build": "yarn run buildApp && yarn run buildAppNode",
+      "devServer": "node dist/server/index.js --dev",
+      "server": "node dist/server/index.js",
+      "dev": "atri-react-app-dev-server"
+    },
+    "dependencies": {
+      "@atrilabs/app-scripts": "^0.0.90",
+      "@atrilabs/core": "^0.0.90",
+      "chokidar": "^3.5.3",
+      "http-proxy-middleware": "^2.0.6",
+      "react": "18.0.0",
+      "react-dom": "18.0.0",
+      "react-router-dom": "^6.3.0",
+      "ws": "^8.8.0",
+      "zustand": "^4.0.0-rc.1",
+      "@atrilabs/react-component-manifests": "^0.0.90"
+    },
+    "devDependencies": {
+      "eslint-config-prettier": "^8.5.0",
+      "eslint-config-react-app": "^7.0.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
